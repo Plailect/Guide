@@ -19,7 +19,6 @@ During this process, we also setup programs such as the following:
 +  **GodMode9** *(multipurpose tool which can do NAND and cartridge functions)*
 +  **Homebrew Launcher Loader** *(launches the Homebrew Launcher)*
 +  **DSP1** *(allows homebrew applications to have sound)*
-+  **ctr-no-timeoffset** *(removes the rtc offset so that the home menu and rtc timestamps match)*
 
 ### What You Need
 
@@ -29,7 +28,6 @@ During this process, we also setup programs such as the following:
 * The v1.9.2pre1 release of [GodMode9](https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1)
 * The latest release of [DSP1](https://github.com/zoogie/DSP1/releases/latest)
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
-* The latest release of [ctr-no-timeoffset](https://github.com/ihaveamac/ctr-no-timeoffset/releases/latest)
 * The latest release of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
 
 ### Instructions
@@ -40,7 +38,6 @@ During this process, we also setup programs such as the following:
 1. Insert your SD card into your computer
 1. Create a folder named `3ds` on the root of your SD card if it does not already exist
 1. Create a folder named `cias` on the root of your SD card if it does not already exist
-1. Copy `ctr-no-timeoffset.3dsx` to the `/3ds/` folder on your SD card
 1. Copy `FBI.3dsx` to the `/3ds/` folder on your SD card
 1. Copy `Homebrew_Launcher.cia` to the `/cias/` folder on your SD card
 1. Copy `lumaupdater.cia` to the `/cias/` folder on your SD card
@@ -76,15 +73,14 @@ If, before following this guide, you already had an EmuNAND setup and would like
 1. Select "Miscellaneous options"
 1. Select "Switch the hb. title to the current app."
 1. Press (B) to continue
+1. Select "Sync time and date via NTP"
+1. Press (A) to sync time
+1. Press (B) to continue
 1. Press (B) to return to the Rosalina main menu
 1. Press (B) to exit the Rosalina menu
 1. Press (Home), then close Download Play
 1. Launch the Download Play application
 1. Your device should load the Homebrew Launcher
-1. Launch ctr-no-timeoffset from the list of homebrew
-1. Press (A) to set the offset to 0
-  + This will set the system clock to match the RTC date&time (which we will set soon)
-1. Press (Start) to return to the Homebrew Launcher
 1. Launch FBI from the list of homebrew
 
 #### Section IV - Installing CIAs
