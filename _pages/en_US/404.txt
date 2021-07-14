@@ -6,4 +6,5 @@ sitemap: false
 ---
 
 Sorry, but the page you were trying to view does not exist.
+You can see a list of all pages in the [Site Navigation](site-navigation) page.
 {: .notice--info}
