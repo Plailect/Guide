@@ -48,15 +48,18 @@ title: "新手入门"
 	<tr>
       <td style="text-align: center; font-weight: bold;">11.4.0</td>
       <td style="text-align: center; font-weight: bold;">11.13.0</td>
-      <td style="text-align: center; font-weight: bold;">Update your 3DS to the latest version through System Settings</td>
+      <td style="text-align: center; font-weight: bold;">通过系统设置更新你的 3DS 到最新版本</td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">11.14.0（最新版）</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">安装boot9strap（通过浏览器）</a></td>
     </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">所有版本<br></td>
-      <td style="text-align: center; font-weight: bold;"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">安装 bootstrap（通过 ntrboot）</a><br><sub>（需要一块兼容的烧录卡）</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">或</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">安装 boot9strap（通过硬改）</a><br><sub>（需要焊接技术）</sub></p></td>
-    </tr>
   </tbody>
 </table>
+
+---
+
+所有的系统版本都有可行的一些方法，但是部分办法需要额外的硬件设备才能进行。 所以如果可以的话，你应该先试试只使用软件的办法。
+
+1. [ntrboot](ntrboot) - 需要兼容的 DS 烧录卡
+1. [安装 boot9strap（通过硬改）](installing-boot9strap-(hardmod)) - 需要焊接工具

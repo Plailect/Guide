@@ -9,7 +9,7 @@ title: "安裝 boot9strap (透過 SafeB9SInstaller)"
 #### 第一節 — 啟動 SafeB9SInstaller
 
 1. 透過 Homebrew 清單啟動 udsploit
-1. 處理完畢後，按下『Start』鍵退出 udsploit
+1. 當您看見 `patching kernel... done` 時，按下「Start」鍵退出 udsploit
   + 可能需要嘗試多次
   + 如果當機的話，透過電源按鈕將您的主機強制關機，並再試一次
 1. 透過 Homebrew 清單啟動 safehax
@@ -29,7 +29,7 @@ title: "安裝 boot9strap (透過 SafeB9SInstaller)"
 1. 您的主機將會重啟至 Luma3DS 設定選單中
   + 如果黑屏，[請依循本疑難排解之步驟](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. 透過方向鍵及『A』以開啟下列選項：
-  + **『Show NAND or user string in System Settings』**
+  + **"Show NAND or user string in System Settings"**
 1. 按『Start』鍵以存檔並重新啟動系統
   + 如果您遇到了錯誤訊息，繼續到下一頁即可
 

@@ -41,8 +41,8 @@ new-browserhax-xl/old-browserhax-xl (when combined with universal-otherapp) is c
 
 #### セクション III - boot9strapをインストールする
 
-1. すべてのセーフティチェックが完了するまで待ちます
-1. プロンプトが表示されたら、boot9strapをインストールするために与えられたキーコンボを入力します。
+1. Wait for all checks to complete
+1. When prompted, input the key combo given on the top screen to install boot9strap
 1. 完了したら、(A) を押してデバイスを再起動します
 
 #### セクション IV - Luma3DSを設定する
@@ -50,7 +50,7 @@ new-browserhax-xl/old-browserhax-xl (when combined with universal-otherapp) is c
 1. デバイスはLuma3DS設定メニューに再起動します
   + もしブラックスクリーンの場合は[トラブルシューティングガイド](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap) をご覧ください
 1. (A) ボタン とD-Padを使用し、次の設定を有効にします:
-  + **「Show NAND or user string in System Settings」**
+  + **"Show NAND or user string in System Settings"**
 1. (Start) を押してセーブして再起動します
 
 ___

@@ -16,7 +16,7 @@ title: "安裝 boot9strap (透過 2xrsa)"
 
 1. 關閉您的主機
 1. 將 SD 卡插入至電腦中
-1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
+1. 解壓 Luma3DS `.zip` 內的 `boot.firm` 及 `boot.3dsx` 到 SD 卡的根目錄底下
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `boot9strap`
 1. 解壓 boot9strap `.zip` 的 `boot9strap.firm` 及 `boot9strap.firm.sha` 檔案至 SD 卡的 `/boot9strap/` 資料夾中
 1. 解壓 SafeB9SInstaller `.zip` 的 `arm9.bin` 及 `arm11.bin` 至 SD 卡的根目錄中
@@ -39,7 +39,7 @@ title: "安裝 boot9strap (透過 2xrsa)"
 
 #### 第三節 — 安裝 boot9strap
 
-1. 等待所有安全性檢查完畢
+1. 等待所有的安全性檢查檢查完畢
 1. 出現提示時，輸入提示的按鍵組合以安裝 boot9strap
 1. 過程結束後，按下『A』重啟主機
 
@@ -48,7 +48,7 @@ title: "安裝 boot9strap (透過 2xrsa)"
 1. 您的主機將會重啟至 Luma3DS 設定選單中
   + 如果黑屏，[請依循本疑難排解之步驟](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. 透過方向鍵及『A』以開啟下列選項：
-  + **『Show NAND or user string in System Settings』**
+  + **"Show NAND or user string in System Settings"**
 1. 按『Start』鍵以存檔並重新啟動系統
   + 如果您遇到了錯誤訊息，繼續到下一頁即可
 

@@ -54,9 +54,12 @@ A betű és a szám a rendszer verziót követően (például: 11.14.0-**46U**) 
       <td style="text-align: center; font-weight: bold;" colspan="2">11.14.0 (legutolsó verzió)</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Boot9strap telepítése (böngésző)</a></td>
     </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">MINDEN VERZIÓ<br></td>
-      <td style="text-align: center; font-weight: bold;"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">ntrboot</a><br><sub>(Kompatibilis flashcart szükséges)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">or</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">Boot9strap telepítése (Hardmod)</a><br><sub>(forrasztást igényel)</sub></p></td>
-    </tr>
   </tbody>
 </table>
+
+---
+
+Számos az összes verziónál használható metódus elérhető, de további hardvert igényelnek. Ha lehetséges, kövesd az alábbi metódusok egyikét inkább.
+
+1. [ntrboot](ntrboot) - kompatibilis DS flashcard-ra van szükség hozzá
+1. [Boot9strap telepítése (Hardmod)](installing-boot9strap-(hardmod)) - forrasztást igényel

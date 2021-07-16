@@ -23,7 +23,7 @@ title: "安装 Boot9strap（通过 Fredtool）"
 
 #### 第一步 – 准备工作
 
-1. 将设备关机
+1. 将主机关机
 1. 将你的 SD 卡插入到电脑
 1. 解压 Luma3DS `.zip` 里的 `boot.firm` 和 `boot.3dsx` 到你 SD 卡的根目录
 1. 复制 `boot.nds` （B9STool）到你的 SD 卡根目录
@@ -47,12 +47,12 @@ title: "安装 Boot9strap（通过 Fredtool）"
 1. 将 SD 卡重新插入你的主机
 1. 启动你的主机
 1. 启动你主机上的 “系统设置(System settings)”
-1. 移动至 `数据管理(Data Management)` -> `DSiWare`
+1. 进入到 `数据管理(Data Management)` -> `DSiWare`
 1. 在 “SD Card” 一栏，选择 “Haxxxxxxxxx!” 应用
 1. 选择 “Copy” ，然后选择 “OK”
 1. 返回系统设置的主菜单
 1. 移动到 `“网络设置(Internet Settings)”` -> `“任天堂 DS 连接(Nintendo DS Connections)”`，然后选择 “OK”
-1. 如果漏洞执行成功，你的设备将进入到日版的“うごくメモ帳 (Flipnote Studio)”
+1. 如果漏洞执行成功，你的主机将进入到日版的“うごくメモ帳 (Flipnote Studio)”
 
 #### 第三步 – 触发 Flipnote 漏洞
 
@@ -69,7 +69,7 @@ title: "安装 Boot9strap（通过 Fredtool）"
 1. 点击第三个带有 “A” 的框
 1. 向左移动到 “1/3”
 1. 点击第四个带有 “A” 的框
-1. 如果漏洞成功执行，你的设备将会进入到 b9sTool
+1. 如果漏洞成功执行，你的主机将会进入到 b9sTool
 1. 使用十字键将光标移动至“Install boot9starp”
   + 如果你漏了这步，系统将重启到桌面而非安装 boot9strap，你需要重新打开任天堂 DS 连接然后重新从本页教程的第三步开始
 1. 按下 “A” 键，然后同时按下 START 键和 SELECT 键来开始安装
@@ -82,20 +82,20 @@ title: "安装 Boot9strap（通过 Fredtool）"
 1. 开机时按住 “Select” 键，进入 Luma3DS 的配置菜单
   + 如果你遇到了问题无法启动 Luma 配置菜单，[请参见此故障排查章节](https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md)
 1. 使用方向键和 “A” 键来启用以下设置：
-  + **“Show NAND or user string in System Settings”**
+  + **"Show NAND or user string in System Settings"**
 1. 按下 “Start” 键保存设置并重启
   + 你的主机应该在一会后加载到系统桌面。 如果你等了超过五分钟还是黑屏，[请参见此故障排查章节](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 
 #### 第五步 – 还原 “DS 连接设置（DS Connection Settings）”
 
-1. 将设备关机
+1. 将主机关机
 1. 将你的 SD 卡插入到电脑
 1. 从刚下载的压缩包（`fredtool_output.zip`）中的 `output/clean/` 文件夹复制出 `42383841.bin`，将其复制进你 SD 卡的 `Nintendo 3DS/<ID0>/<ID1>/Nintendo DSiware/` 文件夹
   + 请替换现有的 `42383841.bin` 文件
 1. 将SD卡重新插入你的主机
 1. 启动你的主机
 1. 启动你主机上的 “系统设置(System settings)”
-1. 移动至 `数据管理(Data Management)` -> `DSiWare`
+1. 进入到 `数据管理(Data Management)` -> `DSiWare`
 1. 在 “SD卡(SD Card)” 一栏，选择 “Nintendo DSi™” 应用
 1. 选择 “Copy” ，然后选择 “OK”
 

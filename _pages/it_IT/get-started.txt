@@ -54,9 +54,12 @@ La lettera e il numero dopo la versione di sistema (ad esempio, 11.14.0-**46U**)
       <td style="text-align: center; font-weight: bold;" colspan="2">11.14.0 (più recente)</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-boot9strap-(browser)">Installazione di boot9strap (Browser)</a></td>
     </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">TUTTE LE VERSIONI<br></td>
-      <td style="text-align: center; font-weight: bold;"><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="ntrboot">ntrboot</a><br><sub>(Richiede una flashcart compatibile)</sub></p><p style="display: inline-block; margin-top: 1.3em; vertical-align: super; width: 6%">o</p><p style="display: inline-block; margin-top: 1.3em; width: 47%"><a href="installing-boot9strap-(hardmod)">Installazione di boot9strap (Hardmod)</a><br><sub>(Richiede fare saldature)</sub></p></td>
-    </tr>
   </tbody>
 </table>
+
+---
+
+Ci sono diversi metodi che funzionano su tutte le versioni, ma richiedono dell'hardware aggiuntivo. Se possibile, dovresti seguire uno dei metodi indicati sopra.
+
+1. [ntrboot](ntrboot) - richiede una flashcart DS compatibile
+1. [Installazione di boot9strap (Hardmod)](installing-boot9strap-(hardmod)) - richiede saldatura

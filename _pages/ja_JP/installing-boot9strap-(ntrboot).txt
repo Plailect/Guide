@@ -48,10 +48,10 @@ title: "boot9strapの導入 (ntrboot)"
 
 #### セクション III - boot9strapをインストールする
 
-1. すべてのセーフティチェックが完了するまで待ちます
+1. Wait for all checks to complete
 1. 端末から磁石を取り外します
   + old2DSでは、代わりにスリープモードスイッチを無効にする必要があります
-1. プロンプトが表示されたら、boot9strapをインストールするために与えられたキーコンボを入力します。
+1. When prompted, input the key combo given on the top screen to install boot9strap
 1. 完了したら、電源ボタンを押し続けてデバイスの電源を切ってください
   + 次のセクションが完了するまで、デバイスは SafeB9SInstaller 画面のみ起動します
 
@@ -65,7 +65,7 @@ title: "boot9strapの導入 (ntrboot)"
 1. お使いのデバイスはLuma3DS設定メニューを起動しているはずです
   + もしブラックスクリーンの場合は[トラブルシューティングガイド](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap) をご覧ください
 1. (A) ボタン とD-Padを使用し、次の設定を有効にします:
-  + **「Show NAND or user string in System Settings」**
+  + **"Show NAND or user string in System Settings"**
 1. (Start) を押してセーブして再起動します
   + エラーが発生した場合は、次のページに進んでください
 
